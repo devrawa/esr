@@ -26,6 +26,6 @@ const antiSpam = new AntiSpam({
 
 client.on('ready', () => console.log(`Logged in as ${client.user.tag}.`));
 
-client.on('message', (message) => antiSpam.message(message)); 
+client.on('message', (message) => antieveryone.message(message)); 
 
 client.login('Nzc5MDQ2MDUzODc3Nzc2NDI0.X7a1LQ.SLbzmPLtBB5cBd5uiKY2mTqpcko ');
