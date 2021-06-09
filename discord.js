@@ -28,4 +28,4 @@ client.on('ready', () => console.log(`Logged in as ${client.user.tag}.`));
 
 client.on('message', (message) => antiSpam.message(message)); 
 
-client.login('Nzc5MDQ2MDUzODc3Nzc2NDI0.X7a1LQ.4MhSt-pq0wp_j8jZAH-qZlfF8vs');
+client.login('Nzc5MDQ2MDUzODc3Nzc2NDI0.X7a1LQ.SLbzmPLtBB5cBd5uiKY2mTqpcko ');
