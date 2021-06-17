@@ -28,4 +28,4 @@ client.on('ready', () => console.log(`Logged in as ${client.user.tag}.`));
 
 client.on('message', (message) => antieveryone.message(message)); 
 
-client.login('ODU1MDE5MDczNjQwNTk1NDU3.YMsYkA.leGQxkO2tkAelMX4hcCOSosPYy4');
+client.login('ODU1MDE5MDczNjQwNTk1NDU3.YMsYkA.zd8cbsYWen4BT2z3aI2Bl-oEoQs');
