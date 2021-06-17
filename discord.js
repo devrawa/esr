@@ -7,10 +7,10 @@ const antiSpam = new AntiSpam({
 	kickThreshold: 7, // Amount of messages sent in a row that will cause a kick.
 	banThreshold: 7, // Amount of messages sent in a row that will cause a ban.
 	maxInterval: 2000, // Amount of time (in milliseconds) in which messages are considered spam.
-	warnMessage: '{@user}, Please stop spamming.', // Message that will be sent in chat upon warning a user.
-	kickMessage: '**{user_tag}** has been kicked for spamming.', // Message that will be sent in chat upon kicking a user.
-	muteMessage: '**{user_tag}** has been muted for spamming.',// Message that will be sent in chat upon muting a user.
-	banMessage: '**{user_tag}** has been banned for spamming.', // Message that will be sent in chat upon banning a user.
+	warnMessage: '{@user}, tkaea spam maka.', // Message that will be sent in chat upon warning a user.
+	kickMessage: '**{user_tag}** kik kra labar awae spame  krd.', // Message that will be sent in chat upon kicking a user.
+	muteMessage: '**{user_tag}** mute kra laba awae spame krd.',// Message that will be sent in chat upon muting a user.
+	banMessage: '**{user_tag}** band kra labar awae spame krd.', // Message that will be sent in chat upon banning a user.
 	maxDuplicatesWarning: 6, // Amount of duplicate messages that trigger a warning.
 	maxDuplicatesKick: 10, // Amount of duplicate messages that trigger a warning.
 	maxDuplicatesBan: 12, // Amount of duplicate messages that trigger a warning.
@@ -28,4 +28,4 @@ client.on('ready', () => console.log(`Logged in as ${client.user.tag}.`));
 
 client.on('message', (message) => antieveryone.message(message)); 
 
-client.login('ODUxNTUxNTc2MjA4NDQxMzk0.YL57NA.9cTzI0_h7a9pEcyxPLhVtPr3aAE');
+client.login('ODU1MDE5MDczNjQwNTk1NDU3.YMsYkA.leGQxkO2tkAelMX4hcCOSosPYy4');
